@@ -8,6 +8,7 @@
 #include "occupancygrid.h"
 #include "lidar.h"
 #include "point.h"
+#include "doorfinder.h"
 
 using std::vector;
 using std::map;
@@ -17,7 +18,7 @@ class MazeMapper {
 
         // enum of what findNextTarget's return by reference data.
         // (robot operations)
-        enum robotOps { 
+        enum robotOps {
             OP_NOTHING,
             OP_CRADLE_SIDE,
             OP_CRADLE_FRONT,
@@ -28,7 +29,7 @@ class MazeMapper {
             OP_HALLWAY,
             OP_HALLWAY_SIMPLE,
             OP_STOP
-        }; 
+        };
 
         MazeMapper();
 
