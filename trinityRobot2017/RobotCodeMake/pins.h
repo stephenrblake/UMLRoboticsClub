@@ -10,12 +10,12 @@ we need more pins. Won't work with PWM
 -Jackson
 */
 
-#define motor1APin 1
-#define motor1BPin 2
-#define motor2APin 3
-#define motor2BPin 4
-#define motor3APin 5
-#define motor3BPin 6
+#define motor1APin 5
+#define motor1BPin 6
+#define motor2APin 13
+#define motor2BPin 19
+#define motor3APin 20
+#define motor3BPin 21
 
 #define solenoidPin 7
 #define lidarMotorPin 8
